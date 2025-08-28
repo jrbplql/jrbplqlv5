@@ -15,7 +15,7 @@ msg.AnchorPoint = Vector2.new(0.5,0.5)
 msg.Position = UDim2.new(0.5,0,0.5,0)
 msg.Size = UDim2.new(0,600,0,120)
 msg.BackgroundTransparency = 1
-msg.Text = "⚡ VTD Roblox ⚡"
+msg.Text = "⚡ jrbplql roblox ⚡"
 msg.TextColor3 = Color3.fromRGB(0,255,255)
 msg.Font = Enum.Font.GothamBlack
 msg.TextScaled = true
@@ -91,7 +91,7 @@ end)
 local Fluent = loadstring(game:HttpGet("https://github.com/dawid-scripts/Fluent/releases/latest/download/main.lua"))()
 repeat task.wait() until game:IsLoaded()
 local Window = Fluent:CreateWindow({
-    Title="VTD Roblox 2.4.9",
+    Title="jrbplql roblox 2.4.9",
     SubTitle="Blox Fruit",
     TabWidth=157,
     Size=UDim2.fromOffset(450,300),
@@ -112,27 +112,24 @@ local Tabs = {
 }
 
 -- Tab 0
-Tabs.Main0:AddButton({Title="Discord",Description="VTD Roblox Community",Callback=function() setclipboard("https://discord.gg/qEkEHgkQ") end})
-Tabs.Main0:AddButton({Title="Youtuber",Description="VTD Roblox",Callback=function() setclipboard("https://youtube.com/@vtd.roblox1?si=A5NM7LD-DIOE3a_0") end})
+Tabs.Main0:AddButton({Title="Discord",Description="chú roblox Community",Callback=function() setclipboard("https://discord.gg/QGUWcsKJ") end})
+Tabs.Main0:AddButton({Title="Tiktok",Description="jrbplql roblox",Callback=function() setclipboard("https://vt.tiktok.com/ZSAmJDf7k/") end})
 
 -- Tab 1
-Tabs.Main1:AddButton({Title="Redz Hub",Callback=function()
-    local Settings={JoinTeam="Pirates",Translator=true}
-    loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
-end})
+Tabs.Main1:AddButton({Title="Tuấn Anh Hub",Callback=function()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/AnhTuanDzai-Hub/TuanAnhIOS/refs/heads/main/TuanAnhIOS.lua"))()
 
-Tabs.Main1:AddButton({Title="w-azure Hub",Callback=function()
-    loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/85e904ae1ff30824c1aa007fc7324f8f.lua"))()
-end})
+Tabs.Main1:AddButton({Title="ngọc bổng Hub",Callback=function()
+    getgenv().Team = "Marines"
+loadstring(game:HttpGet("https://raw.githubusercontent.com/LuaCrack/NgocBong/refs/heads/main/NgocBongVn"))()
 
 Tabs.Main1:AddButton({Title="fix lag",Callback=function()
     loadstring(game:HttpGet("https://raw.githubusercontent.com/TurboLite/Script/main/FixLag.lua"))()
 end})
 
 -- Tab 2
-Tabs.Main2:AddButton({Title="nat hub",Callback=function()
-    loadstring(game:HttpGet("https://get.nathub.xyz/loader"))()
-end})
+Tabs.Main2:AddButton({Title="thunderz hub",Callback=function()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/ThundarZ/Welcome/refs/heads/main/Main/GaG/Main.lua'))()
 
 -- Tab 5: Nhà tù
 Tabs.Main5:AddButton({Title="Nhà tù",Description="Nhà siêu to khổng lồ",Callback=function()
@@ -210,7 +207,7 @@ Tabs.Main4:AddButton({Title="Demo Ink Game", Description="Chạy thử Ink Game"
     print("Ink Game chưa có script.")
 end})
 
--- Tab 5: Script của Yuta (tiện ích bổ sung)
+-- Tab 5: Script của Yuta (giúp nhiều siêu tiện)
 Tabs.Main5:AddButton({Title="Teleport về spawn", Description="Di chuyển nhanh về spawn", Callback=function()
     local player = game.Players.LocalPlayer
     if player.Character and player.Character:FindFirstChild("HumanoidRootPart") then
@@ -256,9 +253,9 @@ Tabs.Main5:AddButton({Title="Tạo Platform lớn", Description="Tạo platform 
     end
 end})
 
-print("VTD Roblox GUI loaded successfully!")
+print("jrbplql roblox GUI loaded successfully!")
 -- Tab 1: Script Blox Fruit
-Tabs.Main1:AddButton({Title="Redz Hub", Callback=function()
+Tabs.Main1:AddButton({Title="Redz Hub(chưa sài được)", Callback=function()
     local Settings={JoinTeam="Pirates", Translator=true}
     loadstring(game:HttpGet("https://raw.githubusercontent.com/newredz/BloxFruits/refs/heads/main/Source.luau"))(Settings)
 end})
